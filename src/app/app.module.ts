@@ -11,18 +11,18 @@ import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
-    AppComponent,
     NewAppointmentComponent,
     AppointmentListComponent,
     DashboardComponent
   ],
   imports: [
+    AppComponent,
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     HttpClientModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [],
 })
 export class AppModule { }
